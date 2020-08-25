@@ -1,0 +1,24 @@
+{
+  "name": "api-rest-nodejs",
+  "version": "1.0.0",
+  "description": "Api Rest assignment Job Listing Portal API ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "14.5.0"
+  },
+  "author": "Jose Miguel Gonzalez",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-multiparty": "^2.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.25" 
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
